@@ -1,0 +1,100 @@
+    
+    
+    
+    
+    
+     body {
+              background-color: blanchedalmond;
+              color: lime;
+              font-family: Cursive;
+              font-size: 20px;
+              font-style: italic;
+              background-image: url(../images/5511821-retro-microphone-against-old-dirty-brick-wall.jpg);
+              background-size: cover;
+          }
+          img {
+              width: 300px;
+              height: 400px;
+              position: relative;
+              left: 800px;
+              border: solid;
+              border-color: black;
+          }
+          
+          a {
+            color: turquoise;
+          }
+          a:visited {
+            color: purple;
+          }
+          a:hover {
+            color: red;
+          }
+          a:active {
+            color: orange;
+          }
+          
+          h1 {
+            color: navy;
+          }
+          
+          h2 {
+            color: navy;
+          }
+          
+          h3 {
+            color: navy;
+          }
+          
+          
+          .nav li {
+            list-style-type: none;
+            margin: 5px;
+            display: inline-block;
+          }
+          
+          .nav a {
+            padding: 5px;
+            background-color: darkblue;
+            border: solid;
+            border-color: bisque;
+          }
+          
+           h1, h2, .nav, p, a, li, ul {
+               text-align: center;
+           }
+          
+          
+          
+          
+          
+          
+          
+          
+  
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
