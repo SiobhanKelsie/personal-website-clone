@@ -7,12 +7,18 @@
         
        
         <style type="text/css">
+           
+            @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css
+       );
+           
+           
             body {
                background: turquoise;
-               color: lime;
+               color: white;
                font-family: Cursive;
-               background-image: url(images/5511821-retro-microphone-against-old-dirty-brick-wall.jpg);
+               background-image: url(images/IMG_20141001_155010352_HDR.jpg);
               background-size: cover;
+              font-size: 200%;
                   }
             
             a {
@@ -36,7 +42,7 @@
                 border: solid;
                 border-color: black;
                 position: relative;
-                left: 800px;
+                left: 100px;
             }
             
             
@@ -48,10 +54,6 @@
           
           .nav a {
             padding: 5px;
-            background-color: darkblue;
-            color: gray;
-            border: solid;
-            border-color: bisque;
           }
            
            .nav a:visited {
@@ -75,8 +77,21 @@
            }
             
             h1 {
-                color: navy;
+                color: white;
             }
+            
+                      .sidebar {
+  width: 1000px;
+  height: 400px;
+  float: right;
+}
+    
+     .main {
+  width: 600px;
+  height: 400px;
+  float: left;
+}
+         
             
         </style>
         
@@ -85,12 +100,39 @@
     </head>
     
     <body>
+       
+           <nav class="navbar navbar-default">
+
+       <div class="container-fluid">
+
+           <div class="navbar-header">
+               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+                   <span class="sr-only">Toggle navigation</span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+               </button>
+                 <a class="navbar-brand" href="index.html">Home</a>
+           </div>
+           <div class="collapse navbar-collapse" id="navbar-collapse">
+               <ul class="nav navbar-nav">
+  <li><a href="index.html">Home Page</a></li>
+  <li><a href="academics.html">Academics</a></li>
+  <li><a href="experience.html">Skills/Experience</a></li>
+  <li><a href="beliefs.html">Beliefs</a></li>
+  <li><a href="favorites.html">Faves</a></li>
+</ul>
+</div>
+    </div>
+    </nav>
+    
+        
+        <div class="main">
         <h1>Education</h1>    
             <p>Since the fall of 2012, I have been attending <a href="http://newkcp.org/">King College Prep</a>. During that time, I have recieved a solo competition award(2014), was involved in one school play "The Wiz"(2014), and won first place in my 3rd period Pre Calculus class for the 2015 Math Bowl(2015). I will be entering my final year of high school as a senior and graduate in 2016.<br><br>For college I am interested in studying Music Performance: Voice/Vocal at Howard University, The University of the Arts- Philadelphia, Western Michigan University, Clark Atlanta, Columbia College Chicago, or Roosevelt University.</p>
-        
-        
-        <img src="images/King_College_Prep_(Chicago).jpg">
-            <p>This is a picutre of King.</p>
+        </div>
+        </div>
+        </div>
         
         
         <h1>Extracurricular Activities</h1>
@@ -101,6 +143,18 @@
                 <li>Jazz Soloist</li>
                 <li>Drama Club</li>
             </ul>
+            
+            
+        </div>
+        
+        
+        
+        <div class="sidebar">
+        <img src="images/King_College_Prep_(Chicago).jpg">
+            <p>This is a picutre of King.</p>
+        
+        
+        
         
         <img src="images/IMG_20150501_183712612.jpg">
             <p>Part of the concert choir. From right to left the people are: Candace, Michelle, Briana, Djeinabou, Chloe, Jasma, and myself.</p>
@@ -108,17 +162,7 @@
         
         <img src="images/IMG_20141219_142428163.jpg">
             <p>This is a picture of the vocal instructor, Bobbie Knight, and myself.</p>
-            
-            
-            <ul class="nav">
-          <li><a href="index.html">Home Page</a></li>
-          <li><a href="academics.html">Academics</a></li>
-          <li><a href="experience.html">Skills/Experience</a></li>
-          <li><a href="beliefs.html">Beliefs</a></li>
-          <li><a href="favorites.html">Faves</a></li>
-        
-        
-      </ul>
+            </div>
             
     </body>
 </html>

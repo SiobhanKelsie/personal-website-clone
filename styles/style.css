@@ -1,25 +1,31 @@
-    
+    @import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css
+       );
     
     
     
     
      body {
               background-color: blanchedalmond;
-              color: lime;
+              color: white;
               font-family: Cursive;
-              font-size: 20px;
+              font-size: 200%;
               font-style: italic;
-              background-image: url(../images/5511821-retro-microphone-against-old-dirty-brick-wall.jpg);
+              background-image: url(../images/IMG_20141001_155010352_HDR.jpg);
               background-size: cover;
+              text-align: center;
           }
           img {
               width: 300px;
               height: 400px;
               position: relative;
-              left: 800px;
+              left: 400px;
               border: solid;
               border-color: black;
           }
+          
+          
+        
+          
           
           a {
             color: turquoise;
@@ -35,15 +41,15 @@
           }
           
           h1 {
-            color: navy;
+            color: white;
           }
           
           h2 {
-            color: navy;
+            color: white;
           }
           
           h3 {
-            color: navy;
+            color: white;
           }
           
           
@@ -55,40 +61,38 @@
           
           .nav a {
             padding: 5px;
-            background-color: darkblue;
-            border: solid;
-            border-color: bisque;
           }
           
            h1, h2, .nav, p, a, li, ul {
                text-align: center;
            }
           
+        
           
-          
-          
-          
-          
-          
-          
+    
+           
+
+.main {
+  width: 1200px;
+  height: 800px;
+  float: center;
+  top: 200px;
+}
+
+
+
+  .footer {
+  float: left;
+  left: -800px;
+  }
+           
+           
+    
+           
+           
+           
+       
   
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-           
-          
-          
-          
-          
-          
           
           
           
